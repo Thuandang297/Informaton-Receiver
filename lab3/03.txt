@@ -1,0 +1,3 @@
+doc3
+
+Various versions have evolved over the years, sometimes by accident

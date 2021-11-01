@@ -1,0 +1,3 @@
+doc1
+
+Contrary to popular belief, Lorem Ipsum is not simply random text
