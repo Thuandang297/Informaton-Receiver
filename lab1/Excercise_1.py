@@ -11,24 +11,24 @@ def checKeyInDictionary(nameFile,key):
 		return True
 	else:
 		return False
-# def changeToDictionary(nameFile):
-# 	file=open(nameFile,mode='r',encoding='utf-8')
-# 	doc=file.read()
-# 	doc=doc.split()
-# 	dic={}
+def changeToDictionary(nameFile):
+	file=open(nameFile,mode='r',encoding='utf-8')
+	doc=file.read()
+	doc=doc.split()
+	dic={}
 
-# 	for word in doc:
-# 		for i in files:
-# 			if(word not in dic):
-# 				dic[word]=1
-# 			else:
-# 				i=dic[word]
-# 				i=i+1
-# 				dic.update({word:i})
-# 		print(dic)
-# 		for key in dic:
-# 			print(key," : ",dic[key])
-# 		file.close()	
+	for word in doc:
+		for i in files:
+			if(word not in dic):
+				dic[word]=1
+			else:
+				i=dic[word]
+				i=i+1
+				dic.update({word:i})
+		print(dic)
+		for key in dic:
+			print(key," : ",dic[key])
+		file.close()	
 def changeToDictionary(nameFile):
 	file=open(nameFile,mode='r',encoding='utf-8')
 	files={'doc2.txt','doc3.txt','doc4.txt','doc5.txt','doc6.txt'}
@@ -59,11 +59,11 @@ file5='doc5.txt'
 file6='doc6.txt'
 files={'doc1.txt','doc2.txt','doc3.txt','doc4.txt','doc5.txt','doc6.txt'}
 changeToDictionary(file1)
-# changeToDictionary(file2)
-# changeToDictionary(file3)
-# changeToDictionary(file4)
-# changeToDictionary(file5)
-# changeToDictionary(file6)
+changeToDictionary(file2)
+changeToDictionary(file3)
+changeToDictionary(file4)
+changeToDictionary(file5)
+changeToDictionary(file6)
 toi='với'
 
 
